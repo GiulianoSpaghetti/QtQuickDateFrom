@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=QtQuickDateFrom
+Exec=/usr/bin/QtQuickDateFrom
+Comment=
+Terminal=false
+Icon=/usr/share/icons/QtQuickDateFrom.png
+Type=Application
+Categories=Utility;
