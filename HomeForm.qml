@@ -60,14 +60,22 @@ Page {
                         var data=now-actual.getTime();
                             data=Math.floor(data / (1000 * 3600 * 24));
                             var anniversary=""
-                            if (actual.getDate()==now.getDate())
-                                if (actual.getMonth()==now.getMonth())
-                                    anniversary=qsTr('Is your anniversary');
-                                else
-                                    anniversary=qsTr('Is your mesiversary');
-
-                        result.text=qsTr('You meet')+' '+name.text+qsTr(' about ')+data+ qsTr(' days ago.');
-                        result1.text=anniversary
+                        if (data<0) {
+            	        	result.text=i18n.tr('Invalid rvalue');
+            	        	return;
+            	       	}
+            	        var anniversary=""
+            	        if (data > 0) {
+ 	           	        if (actual.getDate()==now.getDate())
+        	    	        	if (actual.getMonth()==now.getMonth())
+        	    	        		anniversary=i18n.tr('Is your anniversary');
+        	    	        	else
+        	    	        		anniversary=i18n.tr('Is your mesiversary')
+        	    	};
+			if (name.text==='')
+                result.text=data+qsTr(' days have passed')+'.';
+			else
+                        result.text=qsTr('You meet')+qsTr(' ')+name.text+i18n.tr(' about ')+data+ qsTr(' days ago.');
                         settings.setValue('nome', name.text)
                             settings.setValue("data",
                                               Qt.formatDate(datePicker.selectedDate,
