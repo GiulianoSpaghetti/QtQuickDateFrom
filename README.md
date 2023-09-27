@@ -1,16 +1,11 @@
 # QtQuickDateFrom
 Ancora un countdown in qtquick
 
-# QtQuickDateCalc
-Un countdown qtquick. E' localizzato in Francese, Inglese, Tedesco, Italiano, Portoghese e Spagnolo.
-
 # Installazione
 
 Per prima cosa bisogna abilitare il repository
 
-sudo add-apt-repository "http://numeronesoft.ddns.net/repos/apt/debian bullseye main"
-
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 52B68EEB
+seguite le istruzioni su http://numeronesoft.ddns.net
 
 sudo apt install qtquickdatefrom
 
@@ -20,7 +15,7 @@ A quest punto bisogna salvare il file col nome della traduzione che avete scelto
 
 # Donazioni
 
-[![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
+[![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JZVR4QQFGLR6Q)
 
 Puoi donare anche tramite carta Hype a patto di avere il mio numero di cellulare nella rubrica. Sai dove lo puoi trovare? Sul mio curriculum.
 Apri l'app Hype, fai il login, seleziona PAGAMENTI, INVIA DENARO, seleziona il mio numero nella rubrica, imposta l'importo, INSERISCI LA CAUSALE e segui le istruzioni a video.
